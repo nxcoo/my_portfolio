@@ -1,45 +1,192 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Countdown Timer per eventi speciali">
-    <meta name="keywords" content="countdown, timer, evento">
-    <meta name="author" content="Il tuo nome">
-    <title>Timer Countdown - Portfolio</title>
-    <link rel="icon" type="image/png" href="/images/logo_nicox.png">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Nicholas Puppo - Portfolio</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/images/general/logo_nicox.png">
 </head>
 <body>
-    <div class="landing">
-        <div class="landing-inner">
-            <h1 class="animate__animated animate__fadeInDown">Tempo Rimanente</h1>
-            <h2 class="animate__animated animate__fadeInUp">alla pubblicazione del sito !!!</h2>
-            <p class="subtitle animate__animated animate__fadeIn animate__delay-1s">Stay tuned per il nuovo sito</p>
-            <div class="countdown animate__animated animate__zoomIn animate__delay-1s">
-                <div class="time-block">
-                    <span id="days">00</span>
-                    <span class="label">Giorni</span>
+    <!-- LOADER -->
+    <div class="loader-container">
+        <div class="fancy-loader">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+        <p class="loading-text">Loading<span class="dots">...</span></p>
+    </div>
+    <div class="content">
+        <!-- END LOADER -->
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo">Portfolio</div>
+        <button class="hamburger" type="button" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul class="nav-links">
+            <li><a href="#" data-translate="nav.home">Home</a></li>
+            <li><a href="about.html" data-translate="nav.about">About</a></li>
+            <li><a href="contact.html" data-translate="nav.contact">Contact</a></li>
+        </ul>
+        <div class="language-selector">
+            <div class="current-lang">
+                <img src="images/flags/ita.png" alt="Italiano">
+                <span>IT</span>
+            </div>
+            <div class="language-options">
+                <div class="language-option" data-lang="it">
+                    <img src="images/flags/ita.png" alt="Italiano">
+                    <span>Italiano</span>
                 </div>
-                <div class="time-block">
-                    <span id="hours">00</span>
-                    <span class="label">Ore</span>
-                </div>
-                <div class="time-block">
-                    <span id="minutes">00</span>
-                    <span class="label">Minuti</span>
-                </div>
-                <div class="time-block">
-                    <span id="seconds">00</span>
-                    <span class="label">Secondi</span>
+                <div class="language-option" data-lang="en">
+                    <img src="images/flags/eng.png" alt="English">
+                    <span>English</span>
                 </div>
             </div>
         </div>
-        <footer class="animate__animated animate__fadeInUp animate__delay-2s">
-            <p>© 2025 - Nicholas Puppo</p>
-        </footer>
-    </div>
-    <script src="script.js"></script>
+    </nav>
+<!-- END NAVBAR -->
+
+    <section id="home" class="hero">
+        <div class="particles-bg"></div>
+        <div class="hero-content">
+            <div class="hero-text" data-aos="fade-right">
+                <div class="greeting" data-translate="hero.greeting">👋 Hi, I am</div>
+                <h1 class="animate-text">Nicholas Puppo</h1>
+                <p class="profession animate-text-delay" data-translate="hero.profession">Optician & Digital Innovation</p>
+                <p class="hero-description" data-translate="hero.description">
+                    ‘Where the art of optics meets the digital future’
+                </p>
+                <div class="hero-buttons">
+                    <a href="contact.html" class="btn secondary-btn" data-translate="hero.buttons.contact">
+                        <i class="fas fa-paper-plane"></i> Contact Me
+                    </a>
+                </div>
+                <div class="scroll-hint" data-translate="scorri.testo">
+                    Scorri per esplorare
+                </div>
+            </div>
+            <div class="hero-visual" data-aos="fade-left">
+                <div class="floating-elements">
+                    <div class="tech-box optician" data-aos="fade-up" data-aos-delay="200">
+                        <i class="fas fa-glasses" ></i>
+                        <span data-translate="tech_boxes.optician">Optician</span> 
+                    </div>
+                    <div class="tech-box developer" data-aos="fade-up" data-aos-delay="400">
+                        <i class="fas fa-code"></i>
+                        <span data-translate="tech_boxes.developer">Frontend Developer</span>
+                    </div>
+                    <div class="tech-box designer" data-aos="fade-up" data-aos-delay="600">
+                        <i class="fas fa-paint-brush"></i>
+                        <span data-translate="tech_boxes.designer">Graphic Designer</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="highlights">
+        <div class="highlights-container">
+            <div class="highlight-card" data-aos="fade-up">
+                <div class="highlight-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <h3 data-translate="highlights.education.title">Formazione Continua</h3>
+                <p data-translate="highlights.education.description1">Sempre aggiornato sulle ultime tecnologie ottiche e digitali</p>
+            </div>
+            <div class="highlight-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="highlight-icon">
+                    <i class="fas fa-lightbulb"></i>
+                </div>
+                <h3 data-translate="highlights.innovation.title">Innovazione</h3>
+                <p data-translate="highlights.innovation.description2">Soluzioni creative per il settore ottico</p>
+            </div>
+            <div class="highlight-card" data-aos="fade-up" data-aos-delay="400">
+                <div class="highlight-icon">
+                    <i class="fas fa-users"></i>
+                </div>
+                <h3 data-translate="highlights.collaboration.title">Collaborazione</h3>
+                <p data-translate="highlights.collaboration.description3">Approccio orientato al team e al cliente</p>
+            </div>
+        </div>
+
+        <div class="stats-section">
+            <div class="stat-item" data-aos="zoom-in">
+                <span class="stat-number">5+</span>
+                <span class="stat-label" data-translate="stats.experience.label">Anni di Formazione Ottica</span>
+            </div>
+            <div class="stat-item" data-aos="zoom-in" data-aos-delay="200">
+                <span class="stat-number">∞</span>
+                <span class="stat-label" data-translate="stats.growth.label">Voglia di Crescere</span>
+            </div>
+            <div class="stat-item" data-aos="zoom-in" data-aos-delay="400">
+                <span class="stat-number">New</span>
+                <span class="stat-label" data-translate="stats.potential.label">Junior con Grande Potenziale</span>
+            </div>
+        </div>
+
+        <div class="cta-section">
+            <h2 data-aos="fade-up" data-translate="final_part.start_part.title">All'Inizio di un Grande Viaggio</h2>
+            <p data-aos="fade-up" data-aos-delay="200" data-translate="final_part.start_part.description_final">
+                Formazione solida nel settore ottico e tanta voglia di crescere professionalmente nel mondo digitale e non solo 🚀
+            </p>
+            <div class="cta-buttons" data-aos="fade-up" data-aos-delay="400">
+                <a href="contact.html" class="btn primary-btn" data-translate="final_part.collab.collab_title">
+                    <i class="fas fa-handshake"></i> Collaboriamo
+                </a>
+                <a href="about.html" class="btn secondary-btn" data-translate="final_part.mio_percorso.title">
+                    <i class="fas fa-user"></i> Conosci il mio percorso
+                </a>
+            </div>
+        </div>
+    </section>
+
+<!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Nicholas Puppo</h3>
+                <p data-translate="footer.descrizione.desc">Optician & Digital Innovator</p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/nicholas-puppo-21a0682b7/" class="social-link"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h4 data-translate="footer.links.title">Quick Links</h4>
+                <ul>
+                    <li><a href="index.html" data-translate="footer.links.home">Home</a></li>
+                    <li><a href="about.html" data-translate="footer.links.about">About</a></li>
+                    <li><a href="contact.html" data-translate="footer.links.contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h4 data-translate="footer.contact.title">Contact Info</h4>
+                <ul class="contact-info">
+                    <li><i class="fas fa-envelope"></i> nicholaspuppo.work@gmail.com</li>
+                    <li><i class="fas fa-map-marker-alt"></i> <span data-translate="footer.contact.position">Italia</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom"></p>
+            <p>&copy; 2025 Nicholas Puppo. All rights reserved.</p>
+        </div>
+    </footer>
+<!-- END FOOTER -->
+
+<!-- ALL SCRIPT -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/nav.js"></script>
+    <script src="scripts/language.js"></script>
+      <script src="scripts/loading.js"></script>
+<!-- END SCRIPT -->
 </body>
 </html>

@@ -1,0 +1,260 @@
+{
+    "it": {
+      "nav": {
+        "home": "Home",
+        "about": "Chi Sono",
+        "projects": "Progetti",
+        "contact": "Contatti"
+      },
+      "hero": { 
+        "greeting": "Ciao, io sono 👋",
+        "profession": "Ottico & Innovatore Digitale",
+        "description": "Dove l'arte dell'ottica incontra il futuro digitale",
+        "buttons": {
+          "projects": "Vedi i miei progetti",
+          "contact": "Contattami"
+        }
+      },
+
+      "tech_boxes": { 
+        "optician": "Ottico",
+        "developer": "Sviluppatore Frontend",
+        "designer": "Designer Grafico",
+        "manager": "Mindset Manageriale"
+      },
+      "scorri": {
+        "testo": "Scorri per esplorare",
+        "freccia": "↓"
+      },
+      "highlights": { 
+        "education": {
+          "title": "Formazione Continua",
+          "description1": "Sempre aggiornato sulle ultime tecnologie ottiche e digitali"
+        },
+        "innovation": {
+          "title": "Innovazione",
+          "description2": "Soluzioni creative per il settore ottico e informatico"
+        },
+        "collaboration": {
+          "title": "Collaborazione",
+          "description3": "Approccio orientato al team e al cliente"
+        }
+      },
+      "stats": {
+        "experience": {
+          "number": "5+",
+          "label": "Anni di Formazione Ottica"
+        },
+        "growth": {
+          "number": "∞",
+          "label": "Voglia di Crescere"
+        },
+        "potential": {
+          "number": "New",
+          "label": "Junior con Potenziale"
+        }
+      },
+      "final_part":{
+        "start_part": {
+          "title": "All'Inizio di un Grande Viaggio",
+          "description_final": "Formazione solida nel settore ottico e tanta voglia di crescere professionalmente nel mondo digitale e non solo 🚀"  
+        },
+        "collab": {
+          "collab_title": "Collaboriamo"
+        },
+        "mio_percorso": {
+          "title": "Conosci il mio percorso"
+        }
+      },
+      "footer": { 
+        "links": {
+          "title": "Link Utili",
+          "home": "Home",
+          "about": "Chi Sono",
+          "projects": "Progetti",
+          "contact": "Contatti"
+        },
+        "contact":{ 
+          "title": "Contatti",
+          "position": "Italia"
+        },
+        "descrizione":{
+          "desc": "Ottico & Innovatore Digitale" 
+        }
+      },
+      "contact_form": {
+        "title": "Costruiamo Qualcosa di Unico",
+        "description_contact": "Hai un'idea, un progetto o semplicemente vuoi scambiare due parole? Scrivimi, sono sempre aperto a nuove collaborazioni e spunti creativi!",
+        "name": "Nome",
+        "email": "Email",
+        "message": "Messaggio",
+        "send": "Invia"
+      },
+      "card":{
+        "title": "Competenze Professionali",
+        "card1": {
+          "title": "Ottico",
+          "description1": "Esami della vista",
+          "description2": "Scelta delle lenti & montature"
+        },
+        "card2": {
+          "title": "Sviluppatore Frontend",
+          "description1": "HTML",
+          "description2": "CSS",
+          "description3": "JAVASCRIPT"
+        },
+        "card3": {
+          "title": "Designer Grafico",
+          "description1": "UX/UI Design",
+          "description2": "Identità del marchio", 
+          "description3": "Logo design" 
+        }
+      },
+      "percorso":{
+        "title": "Percorso Personale"
+    },
+    "cv":{
+      "1°": "Diploma conclusivo di istruzione secondaria di secondo grado",
+      "2°": {
+        "title": "1° Stage formativo",
+        "description": "16 maggio 2023 - 2 giugno 2023"
+      },
+      "3°": {
+        "title": "2° Stage formativo",
+        "description": "8 gennaio 2024 - 3 febbraio 2024"
+      },
+      "4°": {
+        "title": "Esame di abilitazione all’esercizio delle professioni di ottico",
+        "description": "7 ottobre 2024 - 11 ottobre 2024"
+      },
+      "5°": "Lavoro come ottico abilitato"
+    }
+  },
+
+    "en": {
+      "nav": {
+        "home": "Home",
+        "about": "About Me",
+        "projects": "Projects",
+        "contact": "Contact"
+      },
+      "hero": {
+        "greeting": "Hi, I am 👋",
+        "profession": "Optician & Digital Innovation",
+        "description": "Where the art of optics meets the digital future",
+        "buttons": {
+          "contact": "Contact me"
+        }
+      },
+      "tech_boxes": {
+        "optician": "Optician",
+        "developer": "Frontend Developer",
+        "designer": "Graphic Designer",
+        "manager": "Manager Mindset"
+      },
+      "scorri": {
+        "testo": "Scroll to explore",
+        "freccia": "↓"
+      },
+      "highlights": { 
+        "education": {
+          "title": "Lifelong learning",
+          "description1": "Always updated on the latest optical and digital technologies"
+        },
+        "innovation": { 
+          "title": "Innovation",
+          "description2": "Creative solutions for the optical and informatic sector"
+        },
+        "collaboration": { 
+          "title": "Collaboration",
+          "description3": "Team and customer-oriented approach"
+        }
+      },
+      "stats": {
+        "experience": {
+          "number": "5+",
+          "label": "Years of Optical Training" 
+        },
+        "growth": { 
+          "number": "∞",
+          "label": "Willingness to Grow" 
+        },
+        "potential": {
+          "number": "New",
+          "label": "Junior with Potential"
+        }
+      },
+      "final_part":{
+        "start_part": {
+          "title": "At the start of a great journey",
+          "description_final": "A solid background in optics and a strong desire to grow professionally in the digital world and beyond 🚀"  
+        },
+        "collab": {
+          "collab_title": "We collaborate" 
+        },
+        "mio_percorso": {
+          "title": "You know my path" 
+        }
+      },
+      "footer": { 
+        "links": {
+          "title": "Quick links",
+          "home": "Home",
+          "about": "About",
+          "contact": "Contact"
+        },
+        "contact":{ 
+          "title": "Contact Info",
+          "position": "Italy"
+        },
+        "descrizione":{
+          "desc": "Optician & Digital Innovator" 
+        }
+      },
+      "contact_form": {
+        "title": "Let's Build Something Unique",
+        "description_contact": "Do you have an idea, a project or simply want to have a chat? Write to me, I am always open to new collaborations and creative ideas!",
+        "name": "Name",
+        "email": "Email",
+        "message": "Message",
+        "send": "Send"
+      },
+      "card":{
+        "title": "Professional Skills",
+        "card1": {
+          "title": "Optician",
+          "description1": "Eye examinations",
+          "description2": "Choice of lenses & frames"
+        },
+        "card2": {
+          "title": "Frontend Developer",
+          "description": "Basic knowledge of HTML, CSS and JavaScript"
+        },
+        "card3": {
+          "title": "Graphic Designer",
+          "description1": "UX/UI Design",
+          "description2": "Brand Identity",
+          "description3": "Shop Design"
+        }
+      },
+      "percorso":{
+        "title": "Personal Path"
+    },
+    "cv":{
+      "1°": "Final Diploma of Secondary Education",
+      "2°": {
+        "title": "1° Training Stage",
+        "description": "16 May 2023 - 2 June 2023"
+      },
+      "3°": {
+        "title": "2° Training Stage",
+        "description": "8 January 2024 - 3 February 2024"
+      },
+      "4°": {
+        "title": "Licensing examination for the profession of optician",
+        "description": "7 October 2024 - 11 October 2024"
+      },
+      "5°": "I work as a qualified optician"
+    }
+    }
+}
